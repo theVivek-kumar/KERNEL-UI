@@ -61,6 +61,7 @@ body{
     font-size: 4rem;
     display: flex;
     justify-content: center;
+  
  
 }
 .cta-btn{
@@ -69,11 +70,36 @@ body{
     border: none;
     padding: 1rem;
     color: #ffffff;
+    
+    
+
 }
 .cta-primary{
     background-color: rgba(0, 101, 253, 0.486);
+  
 
 }
 .cta-secondry{
     background-color: #b4b4b4ab;
+   
+}
+/*aocial media*/
+.social-media-icons a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    
+
+}
+.fab{
+    font-size: 3rem;
+    display: flex;
+    margin: auto;
+}
+.social-media-icons{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
 }
