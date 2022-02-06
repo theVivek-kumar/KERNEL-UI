@@ -2,7 +2,8 @@
 
 
 *
-{margin: 0; padding: 0; box-sizing: border-box;}
+{margin: 0; padding: 0; box-sizing: border-box; 
+font-size: 62.5%;}
 
 
 body{
@@ -13,12 +14,29 @@ body{
 .navbar-logo{
     display: flex;
     justify-content: space-between;
-    margin: .5rem;
+    
 
 }
 .navbar-toggle{
     display: flex;
     margin-right: 1rem;
+    align-items: center;
     
 
+}
+.navbar-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar-logo-title{
+    font-size: 5rem;
+    color: rgba(228, 228, 228, 0.616);
+}
+.navbar{
+    background-color: #12142957;
+    height: 4.5rem;
+    
 }
