@@ -107,5 +107,18 @@ body{
 .container h2{
     font-size: 3rem;
     margin-left: 2rem;
+    margin-top: 3rem;
+    color: #ececec;
+    font-weight: 400;
 
+}
+.aside-list a{
+    display: flex;
+
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 2rem;
+    padding-left: 3rem;
+    margin-top: 2.5rem;
+    font-weight: 300;
 }
