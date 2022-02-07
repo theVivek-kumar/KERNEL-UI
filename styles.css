@@ -72,23 +72,33 @@ body{
   
  
 }
-.cta-btn{
+.cta-btn {
     margin: 1rem;
     border-radius: 10px;
-    border: none;
     padding: 1rem;
     color: #ffffff;
+    text-decoration: none;
     
     
 
 }
-.cta-primary{
+.cta-primary {
     background-color: rgba(0, 101, 253, 0.486);
   
 
 }
-.cta-secondry{
-    background-color: #b4b4b4ab;
+.cta-btn a{
+    text-decoration: none;
+    color: #ececec;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.cta :hover{
+    background-color: #212136;
+}
+.cta-secondry {
+    background-color: #b4b4b448;
+    border: 1px solid whitesmoke;
    
 }
 /*social media*/
@@ -123,7 +133,6 @@ body{
 }
 .aside-list a{
     display: flex;
-    flex-wrap: wrap;
     text-decoration: none;
     color: #c4c4c4;
     font-size: 2rem;
@@ -132,17 +141,21 @@ body{
     font-weight: 300;
     min-width: 15%;
 }
-.aside-container{
+
+
+.aside-container {
     background-color: #232342;margin-top: .2rem;
-    width: 15%;
+    width: 20%;
     flex-wrap: wrap;
     display: flex;
+   
+    
 
 }
 /*aside-body-content*/
 .container{
-    display: flex; 
-    
+    display: flex;
+	
 }
 .heading{
     color: #ececec;
@@ -153,6 +166,7 @@ body{
     
     
 }
+
 .aside-body-content {
     display: flex;
     flex-direction: column;
@@ -161,6 +175,7 @@ body{
     
     
 }
+
 .para{
     font-size: 3rem;
     color: rgba(240, 248, 255, 0.938);
