@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root {
+    --RED: #f39494;
+    --GREEN: #77f377a1;
+    --ORANGE: #ffa600b6;
+    --BLUE: #00ffff88;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+body {
+    background-color: #2F2F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.navbar-toggle {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+
+
+
+}
+
+.navbar-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar-logo-title {
+    font-size: 5rem;
+    color: rgba(240, 240, 240, 0.829);
+    padding: 1rem;
+
+}
+
+.navbar {
+    background-color: #12142957;
+    height: 6rem;
+    box-shadow: 0px 0px 0px .6px#c4c4c4;
+}
+
+/*main content*/
+.main-content {
+
+    font-size: 10.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 60%;
+    height: 35rem;
+    color: aliceblue;
+    margin: 8px auto;
+    font-weight: 400;
+}
+
+.cta {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cta-btn {
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+
+
+
+}
+
+.cta-primary {
+    background-color: rgba(0, 101, 253, 0.486);
+
+
+}
+
+.cta-btn a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.cta :hover {
+    background-color: #212136;
+}
+
+.cta-secondry {
+    background-color: #b4b4b448;
+    border: 1px solid whitesmoke;
+
+}
+
+/*social media*/
+.social-media-icons a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+
+
+}
+
+.fab {
+    font-size: 3rem;
+    display: flex;
+    margin: auto;
+}
+
+.social-media-icons {
+    display: flex;
+    margin-top: rem;
+    justify-content: center;
+}
+
+/*aside bar*/
+.container h2 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    color: #ececec;
+    font-weight: 400;
+
+
+}
+
+.aside-list a {
+    display: flex;
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 2rem;
+    padding-left: 4rem;
+    margin-top: 2.5rem;
+    font-weight: 300;
+    min-width: 15%;
+}
+
+
+.aside-container {
+    background-color: #232342;
+    margin-top: .2rem;
+    width: 20%;
+    flex-wrap: wrap;
+    display: flex;
+
+
+
+}
+
+/*aside-body-content*/
+.container {
+    display: flex;
+
+}
+
+.heading {
+    color: #ececec;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 19rem;
+
+
+
+}
+
+.aside-body-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+
+}
+
+.para {
+    font-size: 3rem;
+    color: rgba(240, 248, 255, 0.938);
+    width: 80%;
+    padding-top: 3rem;
+    margin-left: auto;
+
+}
+
+/*alert*/
+.alerts {
+    width: 96%;
+    margin: 1rem auto;
+    height: auto;
+    padding: .5rem;
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+
+}
+
+.alerts-success {
+
+    background-color: var(--GREEN);
+    margin: 4px;
+    height: 4rem;
+    align-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    color: green;
+    border: 1px solid forestgreen;
+    font-weight: 600;
+    font-size: 18px;
+
+
+
+
+}
+
+.alerts-info {
+
+    background-color: var(--BLUE);
+    margin: 4px;
+    height: 4rem;
+    align-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    color: rgb(150, 0, 117);
+    border: 1px solid rgb(255, 79, 255);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.alerts-Warning {
+    background-color: var(--ORANGE);
+    margin: 4px;
+    height: 4rem;
+    align-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    color: rgb(255, 123, 0);
+    border: 1px solid orange;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.alerts-Danges {
+
+    background-color: var(--RED);
+    margin: 4px;
+    height: 4rem;
+    align-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    color: rgb(255, 4, 4);
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+
+.avatar-header {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin: 2rem auto;
+    background-color: rgb(250, 250, 250);
+    flex-wrap: wrap;
+    border-radius: 8px;
+    border: .1px solid rgb(224, 224, 224);
+
+
+
+}
