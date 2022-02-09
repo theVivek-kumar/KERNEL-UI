@@ -79,7 +79,7 @@
 
 /*float btn*/
 .btn--float {
-    background-color: rgba(255, 230, 0, 0.664);
+    background-color: rgb(0, 162, 255);
     border-radius: 27px;
     width: 48px;
     height: 48px;
@@ -89,7 +89,7 @@
     position: fixed;
     bottom: 20px;
     right: 40px;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px rgb(48, 48, 48);
     padding: 2.5px;
 
 }
