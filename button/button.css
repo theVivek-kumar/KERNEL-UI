@@ -1,0 +1,105 @@
+@import url(/style.css);
+/*buttons css*/
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+    width: 60%;
+    margin: 10px auto;
+    border: .1px solid rgb(224, 224, 224);
+}
+
+.btn {
+    background-color: orange;
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    width: 8rem;
+    height: 4rem;
+    font-size: 1rem;
+
+}
+
+.btn--info {
+    background-color: orangered;
+    color: white;
+}
+
+.btn--success {
+    background-color: var(--BLUE);
+    color: white;
+}
+
+.btn--warning {
+    background-color: var(--GREEN);
+    color: white;
+}
+
+.btn--danger {
+    background-color: var(--RED);
+    color: white;
+
+}
+
+/*button varient*/
+.btn--info1 {
+    background-color: orangered;
+    color: white;
+    border-radius: 27px;
+}
+
+.btn--success1 {
+    background-color: whitesmoke;
+    color: rgb(44, 44, 44);
+}
+
+.btn--warning1 {
+    background-color: wheat;
+    color: rgb(88, 88, 88);
+}
+
+.btn--danger1 {
+    background-color: var(--RED);
+    color: white;
+    border: 1px solid red;
+
+
+}
+
+.btn--primary1 {
+    background-color: wheat;
+    border: 2px solid orange;
+}
+
+/*float btn*/
+.btn--float {
+    background-color: rgba(255, 230, 0, 0.664);
+    border-radius: 27px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: rgb(36, 35, 36);
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    box-shadow: 2px 2px 3px #999;
+    padding: 2.5px;
+
+}
+.btns a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fas {
+    font-size: 1.5rem;
+    padding: .2rem;
+}
