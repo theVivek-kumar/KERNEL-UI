@@ -1,6 +1,6 @@
 @import url(/style.css);
 .viewport {
-    height: 100vh ;
+    height: auto ;
 }
 /*toast*/
 .toast-text {
@@ -19,7 +19,8 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     font-size: 2rem;
-    padding: .3rem;
+    margin: .3rem;
+    height: 10rem;
 
 }
 
