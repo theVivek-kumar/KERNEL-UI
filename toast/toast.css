@@ -1,0 +1,41 @@
+@import url(/style.css);
+.viewport {
+    height: 100vh ;
+}
+/*toast*/
+.toast-text {
+    margin: 1rem;
+
+}
+
+.design-success {
+    width: 1rem;
+    height: auto;
+    background-color: var(--GREEN);
+
+}
+
+.toast {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: .3rem;
+
+}
+
+.design-dismiss {
+    width: 1rem;
+    height: auto;
+    background-color: var(--RED);
+    
+}
+
+.design-warning {
+    width: 1rem;
+    height: auto;
+    background-color: rgba(255, 255, 57, 0.781);
+}
+.fas{
+    color: green;
+    font-size: 2rem;
+}
