@@ -193,6 +193,7 @@ body {
     width: 20%;
     flex-wrap: wrap;
     display: flex;
+    flex-direction:row ;
 
 
 
