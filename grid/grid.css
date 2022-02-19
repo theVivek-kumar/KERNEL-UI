@@ -2,6 +2,10 @@
 .viewport {
     height: auto;
 }
+:root{
+    --titlr-color:aliceblue;
+    --BACKGROUND-COLOR:WHITE;
+}
 
 /*grid****view*/
 .Md-grid-4column{
@@ -73,7 +77,7 @@
     color: var(--GREY);
 }
 .rating--title{
-    color: aliceblue;
+    color: var(--titlr-color);
     font-size: 3rem;
     font-weight: 700;
 }
@@ -82,7 +86,8 @@
     width: 80%;
     margin: 15rem;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    background-color: var(--BACKGROUND-COLOR);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
