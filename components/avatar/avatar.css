@@ -116,24 +116,33 @@
 
 }
 
+.navbar-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+}
 
-
-
-
-.container h2 {
-    font-size: 3rem;
-    margin-left: 2rem;
-    margin-top: 3rem;
-    color: #ececec;
-    font-weight: 400;
-
+.navbar-logo-title {
+    font-size: 5rem;
+    color: rgba(240, 240, 240, 0.829);
+    padding: 1rem;
 
 }
 
 
+.aside-container {
+  
+    margin-top: .2rem;
+    width: 31.5%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 
 
 
+}
 
 /*aside-body-content*/
 .container {
