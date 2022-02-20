@@ -1,0 +1,76 @@
+@import url(/style.css);
+.avatar--text {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.span {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: 40rem;
+    text-align: center;
+    display: flex;
+    padding: .8rem;
+    color: rgb(252, 252, 252);
+}
+.avatar-header{
+    display: flex;
+    gap :1rem;
+    padding: 2rem;
+  
+    
+}
+.fas {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(27, 27, 27);
+}
+
+.icone-badge {
+    background-color: green;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 15px;
+    padding: 5.5px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    position: relative;
+    bottom: -30px;
+    right: 20px;
+    margin-left: 40px;
+
+
+}
+.fa-home{
+    position: absolute;
+    bottom: -15px;
+    right: 1rem;
+}
+.online-mode {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    bottom: -50px;
+    right: 40px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.online {
+    background-color: green;
+}
+
+.dnd {
+    background-color: rgb(119, 119, 119);
+}
+.rd-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 40px;
+    margin: 1rem;
+}
