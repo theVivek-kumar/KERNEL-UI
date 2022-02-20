@@ -1,0 +1,84 @@
+@import url(/);
+.alerts {
+    width: 60%;
+    margin: 10px auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+
+}
+
+.alerts-success {
+
+    background-color: var(--GREEN);
+    margin: 4px;
+    height: 2rem;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+    border: 1px solid forestgreen;
+    font-weight: 600;
+    font-size: 18px;
+
+
+
+
+}
+
+.alerts-info {
+
+    background-color: var(--BLUE);
+    margin: 4px;
+    height: 2rem;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(150, 0, 117);
+    border: 1px solid rgb(255, 79, 255);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.alerts-Warning {
+    background-color: var(--ORANGE);
+    margin: 4px;
+    height: 2rem;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 123, 0);
+    border: 1px solid orange;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.alerts-Danges {
+
+    background-color: var(--RED);
+    margin: 4px;
+    height: 2rem;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 4, 4);
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 18px;
+}
