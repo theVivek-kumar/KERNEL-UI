@@ -1,0 +1,68 @@
+@import url(/style.css);
+/*heading*/
+.diff-heading-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.heading1 {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 10px;
+    color: rgb(70, 68, 69);
+    font-size: 3rem;
+    color: rgb(255, 60, 0);
+}
+.heading2{
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 10px;
+    font-size: 2rem;
+    color: rgb(172, 4, 121);
+
+}
+.heading3 {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(70, 68, 69);
+}
+.heading4 {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(70, 68, 69);
+}
+.heading3 {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(70, 68, 69);
+}
+
+.typography {
+    color: rgb(73, 73, 73);
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    font-weight: 800;
+    
+}
+.header-text{
+     width: auto;
+     height: auto;
+     display: flex;
+     margin: 2rem auto;
+     background-color: rgb(250, 250, 250);
+     flex-wrap: wrap;
+     border-radius: 8px;
+     border: .1px solid rgb(224, 224, 224);
+
+
+}
+.aside-container {
+    height: 100vh;
+}
