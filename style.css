@@ -243,15 +243,7 @@ body {
     padding: .5rem;
     border-radius: 5px;
     flex-wrap: wrap;
-
-
-
 }
-
-
-
-
-
 .alerts-success {
 
     background-color: var(--GREEN);
@@ -264,10 +256,6 @@ body {
     border: 1px solid forestgreen;
     font-weight: 600;
     font-size: 18px;
-
-
-
-
 }
 
 .alerts-info {
@@ -311,8 +299,6 @@ body {
     border: 1px solid red;
     font-weight: 600;
     font-size: 18px;
-
-
 }
 
 .avatar-header {
@@ -324,9 +310,6 @@ body {
     flex-wrap: wrap;
     border-radius: 8px;
     border: .1px solid rgb(224, 224, 224);
-
-
-
 }
 /*-------------*/
 .main--content {
@@ -337,9 +320,6 @@ body {
     padding: 20px;
     /* margin: 3rem; */
 }
-
-
-
 
 .heading {
     color: white;
@@ -371,6 +351,10 @@ h5 {
 
 h6 {
     font-size:  1.6rem;
+}
+small{
+    display: flex;
+    justify-content: flex-start;
 }
 .h0{
     font-size: 4rem;
