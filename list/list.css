@@ -1,0 +1,24 @@
+@import url(/style.css);
+.viewport {
+    height: auto;
+}
+.list-style {
+    list-style: none;
+    margin: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    border-bottom: .1px solid rgb(224, 224, 224);
+    padding: 4px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 1px 1px 1px .5px rgb(245, 245, 245);
+}
+
+.list-heading{
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+
+}
