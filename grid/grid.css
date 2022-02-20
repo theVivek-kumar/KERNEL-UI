@@ -9,7 +9,7 @@
     margin-left: 15rem;
     margin-top: 5rem;
     display: flex;
-    background-color: rgb(34, 41, 54);
+    background-color: rgba(34, 41, 54, 0);
     
     
 }
@@ -80,7 +80,7 @@
 /*******************************model*********************************************/
 .model-container{
     width: 80%;
-    margin: 15rem;
+    margin: 5rem;
     height: auto;
     background-color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -88,12 +88,14 @@
 }
 .model-heading{
     display: flex;
+    font-size: 4rem;
     justify-content: center;
 
 }
 .model-para{
     display: flex;
    font-size: 2rem;
-   font-weight: 400;
+   font-weight: light;
+   color: green;
    padding: 1rem;
 }
