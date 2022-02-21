@@ -91,7 +91,7 @@
     align-items: center;
     width: 60%;
     height: 35rem;
-    color: var(--GRAY-40);
+    color: var(--WHITE);
     margin: 8px auto;
     font-weight: 400;
 }
@@ -153,12 +153,15 @@
     font-size: 3rem;
     display: flex;
     margin: auto;
+    color: #3d3df3;
+    
 }
 
 .social-media-icons {
     display: flex;
     margin-top: rem;
     justify-content: center;
+ 
 }
 
 /*aside bar*/
@@ -435,21 +438,22 @@ body {
     background-color: var(--BACKGROUND_COLOR);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--BACKGROUND_COL-2CHOICE);
-    color: rgb(0, 0, 0);
-    font-size: 25px;
+    color: #3d3df3 !important;
+   
 
 }
 
 
 .dark-mode {
-    background-color: var(--BLUE-20);
+    background-color: var(--BLUE);
+    color: #08080e !important;
     
-
-    
-
 }
+
 button{
     border: none;
+    font-size: 2rem;
     background-color: transparent;
-    color: #3d3df3;
+    color: #3d3df3 !important;
+    
 }
