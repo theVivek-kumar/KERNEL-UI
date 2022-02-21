@@ -27,7 +27,7 @@
                     <a href="#"> GITHUB</a>
                 </div>
                 <div class="navbar-links ">
-                    <a href="#"> <i class="fas fa-moon"></i></a>
+                    <button onclick="myFunction()"><i class="fas fa-moon"></i></button>
                 </div>
 
             </div>
@@ -58,7 +58,12 @@
         <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
     </div>
 
-
+<script>
+    function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+</script>
 </body>
 
 </html>
