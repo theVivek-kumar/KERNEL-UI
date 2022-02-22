@@ -186,6 +186,16 @@
     margin-top: 2.5rem;
     font-weight: 300;
     min-width: 15%;
+ 
+}
+.aside-list a:hover{
+    background-color: #2c38582a;
+    margin-left: 4rem;
+    padding: .3rem;
+    border-bottom: 1px solid var(--BLUE-80);
+    border-radius: 5px;
+    color: var(--WHITE);
+    font-weight: 600;
 }
 
 
