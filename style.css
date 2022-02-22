@@ -37,18 +37,12 @@
          --ORANGE: #ffa600b6;
          --BLUE: #00ffff88;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
 }
-
-
 
 /*hbcdhbcd*/
 .navbar-logo {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .navbar-toggle {
@@ -110,15 +104,10 @@
     padding: 1rem;
     color: #ffffff;
     text-decoration: none;
-
-
-
 }
 
 .cta-primary {
     background-color: rgba(0, 101, 253, 0.486);
-
-
 }
 
 .cta-btn a {
@@ -135,7 +124,6 @@
 .cta-secondry {
     background-color: #b4b4b448;
     border: 1px solid whitesmoke;
-
 }
 
 /*social media*/
@@ -145,16 +133,13 @@
     color: aliceblue;
     font-weight: 300;
     font-size: 20px;
-
-
 }
 
 .fab {
     font-size: 3rem;
     display: flex;
     margin: auto;
-    color: #3d3df3;
-    
+    color: #3d3df3;    
 }
 
 .social-media-icons {
@@ -171,10 +156,6 @@
     margin-top: 3rem;
     color: #ececec;
     font-weight: 500;
-  
-    
-
-
 }
 
 .aside-list a {
@@ -185,8 +166,7 @@
     padding-left: 4rem;
     margin-top: 2.5rem;
     font-weight: 300;
-    min-width: 15%;
- 
+    min-width: 15%; 
 }
 .aside-list a:hover{
     background-color: #2c38582a;
@@ -197,8 +177,6 @@
     color: var(--WHITE);
     font-weight: 600;
 }
-
-
 .aside-container {
     background-color: #111118;
     margin-top: .2rem;
@@ -209,16 +187,11 @@
     overflow-y: auto;
     overflow-x: clip;
     height: calc(130vh - 6.24rem);
-
-
-
 }
 ::-webkit-scrollbar {
     width: 5px;
     border-radius: 2px;
 }
-
-
   ::-webkit-scrollbar-track {
     background: transparent; 
   }
@@ -244,8 +217,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 19rem;
 
-
-
 }
 
 .aside-body-content {
@@ -256,8 +227,6 @@
         overflow-y: auto;
         overflow-x: auto;
         height: calc(130vh - 6.24rem);
-
-
 
 }
 
@@ -475,8 +444,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--BACKGROUND_COL-2CHOICE);
     color: #3d3df3 !important;
-   
-
 }
 
 
