@@ -7,42 +7,6 @@
     font-size: 62.5%;
 }
 
-:root {
-
-    --RED: #ff0000;
-    --RED-50: #f75353;
-    --RED-20: #f2dede;
-    --GREEN: #01aa01;
-    --GREEN-50: #51f751d2;
-    --GREEN-20: #dff0d8;
-    --ORANGE: #ce8602;
-    --ORANGE-50: #f7bb4c;
-    --ORANGE-20: #fcf8e3;
-    --BLUE: #0000ff7e;
-    --BLUE-50: #5353f1;
-    --BLUE-80: #3d3df3;
-
-    --BLUE-20: #d9edf7;
-    --BACKGROUND_COLOR: #1a202c;
-    --BACKGROUND_COL-2CHOICE: #1a202c;
-    --WHITE: #ffffff;
-    --GRAY-80: #333333;
-    --GREY-60: #929191;
-    --GRAY-40: #8f8e8e;
-    --GRAY-50: #7e7a7a;
-    --GRAY-20: #C4C4C4;
-    --border10: rgb(214, 214, 214);
-
-    --ASIDE-cont-2: #232342;
-    --RED: #f39494;
-    --GREEN: #77f377a1;
-    --ORANGE: #ffa600b6;
-    --BLUE: #00ffff88;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-}
-
 .drop-btn {
 
     color: var(--GRAY-80);
