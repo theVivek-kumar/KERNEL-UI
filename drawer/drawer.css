@@ -1,0 +1,103 @@
+@import url(/style.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root {
+
+    --RED: #ff0000;
+    --RED-50: #f75353;
+    --RED-20: #f2dede;
+    --GREEN: #01aa01;
+    --GREEN-50: #51f751d2;
+    --GREEN-20: #dff0d8;
+    --ORANGE: #ce8602;
+    --ORANGE-50: #f7bb4c;
+    --ORANGE-20: #fcf8e3;
+    --BLUE: #0000ff7e;
+    --BLUE-50: #5353f1;
+    --BLUE-80: #3d3df3;
+
+    --BLUE-20: #d9edf7;
+    --BACKGROUND_COLOR: #1a202c;
+    --BACKGROUND_COL-2CHOICE: #1a202c;
+    --WHITE: #ffffff;
+    --GRAY-80: #333333;
+    --GREY-60: #929191;
+    --GRAY-40: #8f8e8e;
+    --GRAY-50: #7e7a7a;
+    --GRAY-20: #C4C4C4;
+    --border10: rgb(214, 214, 214);
+
+    --ASIDE-cont-2: #232342;
+    --RED: #f39494;
+    --GREEN: #77f377a1;
+    --ORANGE: #ffa600b6;
+    --BLUE: #00ffff88;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+
+.header {
+    padding: 0px 16px 4px;
+}
+.drawer-body{
+    background-color: var(--BLUE-20);
+    width: 30%;
+    margin: auto;
+}
+
+.main-component {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    margin: 8px 0px;
+
+}
+
+.component {
+    font-size: 18px;
+    margin: 2px 8px 8px;
+    padding: 0px 8px;
+    width: 239px;
+    height: 40px;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+    padding-top: 6px;
+
+}
+
+h3 {
+    color: RGB(98, 0, 237);
+    size: 12px;
+}
+
+.far {
+    width: 3rem;
+    color: rgb(53, 53, 53);
+    font-size: 2rem;
+
+}
+
+.fas {
+    width: 3rem;
+    height: 3rem;
+    color: rgb(80, 80, 80);
+    font-size: 2rem;
+}
+
+h2 {
+    color: rgb(27, 27, 27);
+}
+
+.component:hover {
+    background-color:var(--BLUE-50);
+    border-radius: 4px;
+    height: 40px;
+}
