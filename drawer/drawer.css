@@ -50,7 +50,9 @@
 .drawer-body{
     background-color: var(--BLUE-20);
     width: 30%;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7rem;
 }
 
 .main-component {
@@ -93,7 +95,7 @@ h3 {
 }
 
 h2 {
-    color: rgb(27, 27, 27);
+    color:var(--BLUE-20);
 }
 
 .component:hover {
