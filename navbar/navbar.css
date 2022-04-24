@@ -12,12 +12,13 @@
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
-    color: rgba(51, 51, 51, 0.849);
+    color: rgba(255, 255, 255, 0.849);
 }
 
 
 .home {
     margin: 1rem;
+    color: aliceblue;
 
 }
 
@@ -25,7 +26,7 @@
     display: flex;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(66, 66, 66, 0.89);
+    color: rgba(255, 254, 254, 0.89);
     font-weight: 600;
     text-decoration: none;
     align-items: center;
@@ -33,7 +34,7 @@
 }
 
 .avatar-header1 {
-    width: 60%;
+    width: 80%;
     height: auto;
     display: flex;
     margin: 10px auto;
@@ -66,7 +67,7 @@
      width: 100%;
      flex-wrap: wrap;
      margin: .4rem;
-     background-color: rgba(136, 255, 0, 0.836);
+     background-color: rgba(42, 42, 42, 0.836);
      border-radius: 4px;
     
     
