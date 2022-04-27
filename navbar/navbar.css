@@ -38,10 +38,9 @@
     height: auto;
     display: flex;
     margin: 10px auto;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(39, 38, 38);
     flex-wrap: wrap;
     border-radius: 8px;
-    border: .1px solid rgb(224, 224, 224);
     margin-top: 3rem;
 
 
@@ -59,11 +58,19 @@
     border-radius: 8px;
     background-color: rgba(255, 248, 220, 0.479);
 }
+.logo-text-1 {
+   
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(20, 20, 20, 0.479);
+}
 .container-navbar {
      display: flex;
      align-items: center;
      justify-content: space-between;
-     border: .1px solid rgb(230, 230, 230);
+     border: .1px solid rgb(118, 118, 118);
      width: 100%;
      flex-wrap: wrap;
      margin: .4rem;
@@ -75,3 +82,116 @@
 .fa-bars{
     font-size: 2rem;
 }
+/******navbar*/
+
+  :root {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      --font-color: #282a36;
+      --BACKGROUND-color: #f39494;
+      --PRIMERY-color: rgb(12, 109, 165);
+      --SECONDERY-color: rgb(255, 196, 1);
+      --FOOTER-color: #202020;
+      --WHITE_COL:white;
+
+  }
+
+
+.navbar-md-head {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--PRIMERY-color);
+    width: auto;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+
+
+}
+
+
+
+.navbar-head-logo {
+    color:var(--WHITE_COL);
+    display: flex;
+    font-size: 5rem;
+    align-items: center;
+}
+
+.navbar-login-btn {
+    background-color: rgb(255, 196, 1);
+    padding: .5rem;
+    color: #312546;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: .3rem;
+    width: 8%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6rem;
+}
+
+
+.input-text-navbar {
+    border: 1px solid var(--WHITE_COL);
+    padding: .5rem;
+    width: 25rem;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fa-cart-arrow-down {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: var(--WHITE_COL);
+}
+
+.fa-heart {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: red;
+}
+.fa-user{
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: var(--WHITE_COL);
+
+}
+.navbar-icons-ecom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-input-ecom{
+    width: 300%;
+    height: 2.2rem;
+}
+.navbar-input-ecom-container{
+    display: flex;
+    width: 30%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search{
+    font-size: 1.8rem;
+    color: aliceblue;
+}
+.fa-sign-in-alt{
+    font-size: 1.8rem;
+    color: aliceblue;
+
+}
+
+
+/* a{
+    text-decoration: none;
+} */
